@@ -1,7 +1,7 @@
 
 require_relative 'train'
 
-class TrainPassenger < Train
+class PassengerTrain < Train
 
   def initialize(number)
     super(number, :passenger)

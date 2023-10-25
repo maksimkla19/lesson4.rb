@@ -4,7 +4,8 @@ require_relative 'wagon'
 class WagonCargo < Wagon
 
   def initialize
-    super(:cargo)
+    @type = :cargo
+    super
   end
   
 end

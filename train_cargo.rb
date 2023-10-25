@@ -7,9 +7,4 @@ class TrainCargo < Train
     super(number, :cargo)
   end
 
-  def wagon_add(wagon)
-    return unless self.type == wagon.type
-    super(wagon)
-  end
-
 end

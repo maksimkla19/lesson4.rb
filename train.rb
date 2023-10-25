@@ -77,4 +77,10 @@ class Train
      @speed = 0
    end
 
+    
+    def wagon_add(wagon)
+      return unless type == wagon.type
+      super(wagon)
+    end
+
  end
